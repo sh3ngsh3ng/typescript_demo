@@ -21,7 +21,9 @@ export{}
 
 // Inheritance
 class Trainee {
-    protected traineeName: string;
+    // private traineeName: string;
+    // protected traineeName: string;
+    traineeName: string;
     constructor(name: string) {
         this.traineeName = name;
     }
@@ -49,7 +51,6 @@ class JrTrainee extends Trainee {
 
 let jt = new JrTrainee("Yong2");
 console.log(jt.traineeName);
-jt.display();
 jt.receiveKT();
 
 

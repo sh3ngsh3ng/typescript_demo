@@ -53,5 +53,4 @@ var JrTrainee = /** @class */ (function (_super) {
 }(Trainee));
 var jt = new JrTrainee("Yong2");
 console.log(jt.traineeName);
-jt.display();
 jt.receiveKT();
