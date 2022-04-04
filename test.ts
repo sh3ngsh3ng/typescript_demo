@@ -2,6 +2,7 @@
 // tsc.cmd <file-name> --watch
 export{}
 
+// Abstraction
 interface Person {
     name : string;
     country : string;
