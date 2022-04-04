@@ -37,7 +37,20 @@ console.log(t.traineeName);
 t.display();
 
 
+class JrTrainee extends Trainee {
+    constructor(jrName:string) {
+        super(jrName)
+    }
 
+    receiveKT() {
+        console.log("KT in progress")
+    }
+}
+
+let jt = new JrTrainee("Yong2");
+console.log(jt.traineeName);
+jt.display();
+jt.receiveKT();
 
 
 
