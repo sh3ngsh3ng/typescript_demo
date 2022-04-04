@@ -21,7 +21,7 @@ export{}
 
 // Inheritance
 class Trainee {
-    traineeName: string;
+    protected traineeName: string;
     constructor(name: string) {
         this.traineeName = name;
     }
