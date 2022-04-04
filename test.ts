@@ -33,7 +33,6 @@ class Trainee {
     }
 }
 
-
 let t = new Trainee("Yong");
 console.log(t.traineeName);
 t.display();
